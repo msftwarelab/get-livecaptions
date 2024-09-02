@@ -39,3 +39,13 @@ cargo run -- --file output.txt --interval 1
 ```
 
 This command will start the application, which will capture the live captions every second and save them into `output.txt`. The program checks every 10 seconds to ensure the Live Caption window is still running. Press `Ctrl+C` to gracefully shut down the application.
+
+
+## TODO List
+
+- [ ]  **Integrate with Slint**: Display live captions in a UI that allows text to be copied.
+- [ ]  **Add Control Buttons**: Implement start and stop buttons for captioning.
+- [ ]  **OpenAI Integration**: Integrate OpenAI with buttons to start/stop captioning and querying.
+- [ ]  **Save Captions**: Continue saving live captions to a text file.
+- [ ]  **Text Input for OpenAI**: Add an input field to send custom text to OpenAI and display responses.
+- [ ]  **Pretrain with Job Description and Resume**: Integrate a feature to pretrain with the job description and resume, and allow selecting the type of call (intro, tech, culture).
