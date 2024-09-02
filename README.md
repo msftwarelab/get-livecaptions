@@ -53,3 +53,9 @@ This command will start the application, which will capture the live captions ev
 - [ ]  **Save Captions**: Continue saving live captions to a text file.
 - [ ]  **Text Input for OpenAI**: Add an input field to send custom text to OpenAI and display responses.
 - [ ]  **Pretrain with Job Description and Resume**: Integrate a feature to pretrain with the job description and resume, and allow selecting the type of call (intro, tech, culture).
+
+
+## References
+
+- [Slint Documentation](https://slint.dev/)
+- [Slint Rust Template](https://github.com/slint-ui/slint-rust-template)
