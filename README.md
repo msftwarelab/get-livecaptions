@@ -1,14 +1,18 @@
 # Get Live Captions - Rust
 
-This Rust application captures live captions from Windows 11's Live Caption feature in real-time and saves the content to a specified text file. The application uses Windows Accessibility API, Tokio for asynchronous operations, and Clap for command-line argument parsing.
+This Rust application captures live captions from Windows 11's Live Caption feature in real-time and saves the content to a specified text file. Additionally, it integrates with Slint for a user-friendly UI, providing real-time interaction and enhanced control over the captioning process. The application also includes OpenAI integration for intelligent querying based on the captured text.
 
 Inspired by [corbamico/get-livecaptions-rs](https://github.com/corbamico/get-livecaptions-rs).
 
 ## Features
 
-- Capture live captions from Windows 11 Live Caption in real-time.
-- Save the captured captions to a text file at regular intervals.
-- Automatically handle graceful shutdowns, ensuring the last caption is saved.
+- **Real-Time Caption Capture**: Capture live captions from Windows 11 Live Caption in real-time.
+- **Text File Export**: Save the captured captions to a text file at regular intervals.
+- **User Interface**: Display live captions in a Slint-based UI with the ability to copy the text.
+- **Control Buttons**: Easily start and stop the captioning process with intuitive buttons.
+- **OpenAI Integration**: Query OpenAI with the captured text and receive streamed responses in the UI.
+- **Custom Queries**: Input custom text queries for OpenAI and display the responses directly in the UI.
+- **Pretraining for Interviews**: Pretrain the system with job descriptions and resumes, with options to select the type of interview (intro, technical, or cultural).
 
 ## Prerequisites
 
